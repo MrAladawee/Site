@@ -1,0 +1,83 @@
+body{
+    background-color: beige;
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    width: 1024px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px dotted rosybrown;
+}
+
+.header{
+    float: left;
+    width: calc(100% - 40px);
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    color: darkred;
+    border: 1px dotted rosybrown;
+}
+
+.footer{
+    clear: both;
+    width: calc(100% - 40px);
+    font-size: small;
+    text-align: right;
+    padding: 20px;
+    border: 1px dotted rosybrown;
+}
+
+.content{
+    float: left;
+    padding: 10px;
+    width: calc(100% - 243px);
+    border: 1px dotted rosybrown;
+}
+
+.menu{
+    float: left;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    border: 1px dotted rosybrown;
+}
+
+a.l_menuitem{
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.menuitem{
+    width: calc(100% - 20px);
+    margin: 5px auto;
+    padding: 10px;
+    background-color: chocolate;
+    color: white;
+    font-weight: bold;
+}
+
+.auth{
+    border: 1px solid chocolate;
+    margin: auto;
+}
+
+.tdhead{
+    border: 1px dotted chocolate;
+    text-align: center;
+    font-weight: bold;
+}
+
+.error{
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    padding: 10px;
+    width: calc(100% - 40px);
+    margin: 10px;
+    background-color: moccasin;
+}
