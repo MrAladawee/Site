@@ -11,8 +11,8 @@
 url	VARCHAR(255)
 name VARCHAR(255)
 title	VARCHAR(255)
-secure	INT
-alias INT
+secure	tinyint(1)
+alias VARCHAR(255)
 
 
 
