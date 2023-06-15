@@ -21,11 +21,11 @@ class DbHelper
     ){
         $this->conn = new mysqli();
         $this->conn->connect(
-            hostname: $host,
-            username: $user,
-            password: $pass,
-            database: self::dbName,
-            port: $port
+            $host,
+            $user,
+            $pass,
+            self::dbName,
+            $port
         );
     }
 
