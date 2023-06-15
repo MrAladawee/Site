@@ -4,7 +4,7 @@
 Чтобы на меню отображались странички, в базу надо добавить:
 INSERT INTO `pages`(`url`, `name`, `title`, `secure`, `alias`) VALUES ('/','Главная','Наш супер-сайт!','0','/index.php');
 INSERT INTO `pages`(`url`, `name`, `title`, `secure`, `alias`) VALUES ('/second.php','Вторая страница','Страничка супер-сайта!','0','');
-INSERT INTO `pages`(`url`, `name`, `title`, `secure`, `alias`) VALUES ('/secret.php','Авторизация','Авторизация пользователия','0','');
+INSERT INTO `pages`(`url`, `name`, `title`, `secure`, `alias`) VALUES ('/secret.php','Личный кабинет','Личный кабинет пользователия','1','');
 
 
 
