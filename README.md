@@ -8,14 +8,14 @@
 
 
 
-url	
-name	
-title	
-secure	
-alias
+url	VARCHAR(255)
+name VARCHAR(255)
+title	VARCHAR(255)
+secure	INT
+alias INT
 
 
 
-login	
-password	
-name
+login	VARCHAR(255)
+password	VARCHAR(255)
+name VARCHAR(255)
